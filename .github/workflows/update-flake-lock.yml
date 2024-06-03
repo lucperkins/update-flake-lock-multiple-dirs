@@ -14,5 +14,6 @@ jobs:
       - uses: DeterminateSystems/update-flake-lock@multiple-flake-dirs-ts
         with:
           flake-dirs: |
+            .
             subflake1
             subflake2
